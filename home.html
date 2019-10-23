@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>    
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #ffffff; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+.row1,
+.row1 > .column {
+  padding: 0px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*gallery*/
+.new {
+  margin-top: 1%;
+  padding: 14px;
+  font-size: 15px;
+}
+/* Content */
+.content {
+  background-color: transparent;
+  padding: 0px;
+}
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+h2{
+  text-align: left;
+  font-size: 35px;
+  margin: 15px;
+}
+</style>
+</head>
+<body>
+        <div class="row">
+                <div class="side">
+                  <div class="old">
+                  <h2>heading</h2>
+                  <h2>head</h2>
+                  <h2>heading</h2>
+                      <p>subheading sub</p>
+                  <br><br><br>
+                  <p style="color: red;">All apps</p>
+                  <p>Android</p>  
+                  <p>iOS</p>
+                  </p>
+                </div>
+                </div>
+                <div class="main">
+                    <!-- Portfolio Gallery Grid -->
+                <div class="row1">
+                                <div class="column">
+                                <div class="content">
+                                    <img src="Images/pg1.jpg" alt="Mountains" style="width:100%; filter: none;height:210px">
+                                    <div class="new">
+                                        <p style="float: right;"><i class="fa fa-thumbs-o-up" style="font-size:24px"></i></p>
+                                            <p><strong>MaCafe</strong><br>
+                                               Tiny Times in every Macafe
+                                            </p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="column">
+                                <div class="content">
+                                <img src="Images/pg2.jpg" alt="Lights" style="width:100%;height:210px">
+                                <div class="new">
+                                  <p style="float: right;"><i class="fa fa-thumbs-o-up" style="font-size:24px"></i></p>
+                                      <p><strong>MaCafe</strong><br>
+                                         Tiny Times in every Macafe
+                                      </p>
+                              </div>
+                                </div>
+                                </div>
+                            <!-- END GRID -->
+                </div>
+                <div class="row1">
+                        <div class="column">
+                                <div class="content">
+                                <img src="Images/pg3.jpg" alt="Nature" style="width:100%;height:210px">
+                                <div class="new">
+                                  <p style="float: right;"><i class="fa fa-thumbs-o-up" style="font-size:24px"></i></p>
+                                      <p><strong>MaCafe</strong><br>
+                                         Tiny Times in every Macafe
+                                      </p>
+                              </div>
+                                  
+                                </div>
+                              </div>
+                              <div class="column">
+                                <div class="content">
+                                <img src="Images/pg4.jpg" alt="Mountains" style="width:100%;height:210px">
+                                <div class="new">
+                                  <p style="float: right;"><i class="fa fa-thumbs-o-up" style="font-size:24px"></i></p>
+                                      <p><strong>MaCafe</strong><br>
+                                         Tiny Times in every Macafe
+                                      </p>
+                              </div>
+                                  
+                                </div>
+                              </div>
+                </div>
+                <div class="row">
+                        <div class="column">
+                                <div class="content">
+                                <img src="Images/pg5.jpg" alt="Nature" style="width:100%;height:210px;">
+                                <div class="new">
+                                  <p style="float: right;"><i class="fa fa-thumbs-o-up" style="font-size:24px"></i></p>
+                                      <p><strong>MaCafe</strong><br>
+                                         Tiny Times in every Macafe
+                                      </p>
+                              </div>
+                                  
+                                </div>
+                              </div>
+                              <div class="column">
+                                <div class="content">
+                                <img src="Images/pg6.jpg" alt="Mountains" style="width:100%">
+                                <div class="new">
+                                  <p style="float: right;"><i class="fa fa-thumbs-o-up" style="font-size:24px"></i></p>
+                                      <p><strong>MaCafe</strong><br>
+                                         Tiny Times in every Macafe
+                                      </p>
+                              </div>
+                                
+                                </div>
+                              </div>
+                       </div>
+                           
+                </div>
+                
+                <!-- END MAIN -->
+              </div>
+</body>
+</html>
